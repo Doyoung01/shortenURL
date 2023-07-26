@@ -7,3 +7,6 @@ def shorten_url(url):
 #  token = randstr.generate_rand_token(6)
 #  return os.path.join(config.host,token)
     return randstr.generate_rand_token(6)
+
+def shorten_token():
+    return randstr.generate_rand_token(6)
